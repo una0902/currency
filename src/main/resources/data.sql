@@ -1,0 +1,20 @@
+INSERT INTO parameter (chartname,chtname) VALUES ('Bitcoin','比特幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('Ethereum','以太幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('Tether','泰達幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('Binance Coin','幣安幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('Ripple','瑞波幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('Cardano','艾達幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('Dogecoin','狗狗幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('Litecoin','萊特幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('Polkadot','波卡幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('Monero','門羅幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('Ethereum Classic','古典以太幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('Dash','達世幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('NEO','小蟻');
+INSERT INTO parameter (chartname,chtname) VALUES ('NEM','新經幣');
+INSERT INTO parameter (chartname,chtname) VALUES ('USD','美元');
+INSERT INTO parameter (chartname,chtname) VALUES ('GBP','英鎊');
+INSERT INTO parameter (chartname,chtname) VALUES ('EUR','歐元');
+
+INSERT INTO summary (id,chartname,disclaimer,time) VALUES ('1','Bitcoin','123','Jan 12, 2023 01:40:00');
+INSERT INTO detail (id,chartname,code,symbol,rate,description,ratefloat) VALUES ('1','Bitcoin','USD','@@','11','test','11111.111');

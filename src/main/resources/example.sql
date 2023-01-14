@@ -1,0 +1,2 @@
+insert into summary (id,chartname,disclaimer,time) values ('1','Bitcoin','123','Jan 12, 2023 01:40:00');
+insert into detail (id,chartname,code,symbol,rate,description,ratefloat) values ('1','Bitcoin','USD','@@','11','test','11111.111');

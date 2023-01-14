@@ -1,0 +1,29 @@
+server:
+  port: 9100 # 伺服器的port號
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE # h2 database 連接位址 jdbc:h2:mem:testdb;IFEXISTS=FALSE
+    driver-class-name: org.h2.Driver # 配置driver
+    username: sa # database 用戶名
+    password: p@ssw0rd # database 密碼
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        ddl-auto: none
+    defer-datasource-initialization: true
+
+  sql:
+    init:
+      platform: h2
+      mode: always
+      #schema: classpath:create.sql
+      #schema-locations: classpath:data.sql
+      
